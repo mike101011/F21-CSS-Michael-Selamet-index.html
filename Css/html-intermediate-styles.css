@@ -1,10 +1,13 @@
-#leftcontainer{
-    width: 50%; 
-    background-color: aquamarine;
-    float: left;
+#leftcontainer {
+  width: 50%;
+  background-color: aquamarine;
+  float: left;
 }
-#rightcontainer{
-    width: 50%;
-    background-color: blueviolet;
-    float: left;
+#rightcontainer {
+  width: 50%;
+  background-color: blueviolet;
+  float: left;
+}
+#comments {
+  background-color: rgb(255, 255, 53);
 }
