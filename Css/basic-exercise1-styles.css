@@ -6,3 +6,10 @@ div {
   visibility: hidden;
   /* takes up the same space on the site but is invisible! */
 }
+h1 {
+visibility: hidden;
+}
+#second p {
+  visibility: hidden; 
+}
+/* in order to hide the image you can use this command #sixth {visibility: hidden;}*/
