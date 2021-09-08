@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--the link below commands to refer to the css stylesheer that equals the hyper reference-->
     <link rel="stylesheet" href="Css/html-intermediate-styles.css">
     <title>Contact</title>
+    <!--you also can add a intern stylesheet and put the simmular command you would put in the css file-->
     <style>
         #finalbutton{
             background-color: rgb(27, 194, 77);
@@ -14,6 +16,7 @@
 </head>
 <body>
     <h2>Contact us below.</h2>
+    <!--This form is neccesary to contain input types of your choice our input has a paraghraph above to invite the visitor to submit his or her data -->
     <form action="">
     <p>Tell us your first name: </p>
     <input type="text" id="firstname" placeholder="First name">
@@ -22,17 +25,21 @@
     <input type="text" id="lastname" placeholder="Last name">
     <br>
     <br>
+    <!--here we embeded radio buttons for the user to choose between two options-->
     <label for="gender">Gender:</label>
     <input type="radio" name="gender">Male
     <input type="radio" name="gender">Female
     <br>
+    <!--this paragraph offers the user to give feedback to the host-->
     <p>
         Put your comments below:
     </p>
+    <!--here the user is able to type in his thaughts-->
     <textarea name="message" id="comments" cols="50" rows="20">
 
     </textarea>
     <br>
+    <!--this is the code to submit the input of the user/visitor-->
     <input type="button" id="finalbutton" value="Submitt">
     </form>
 </body>
