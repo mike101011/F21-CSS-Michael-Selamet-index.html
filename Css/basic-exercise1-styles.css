@@ -1,1 +1,8 @@
-
+div {
+  border: solid black thin;
+  margin: 5px;
+}
+#third > p {
+  visibility: hidden;
+  /* takes up the same space on the site but is invisible! */
+}
