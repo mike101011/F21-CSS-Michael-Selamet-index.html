@@ -1,0 +1,10 @@
+#leftcontainer{
+    width: 50%; 
+    background-color: aquamarine;
+    float: left;
+}
+#rightcontainer{
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+}
